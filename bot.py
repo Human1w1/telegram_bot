@@ -5,7 +5,7 @@ from aiogram.filters import CommandStart
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiohttp import web
 
-TOKEN = os.getenv("8365401619:AAFVahZXI_2fJRR1JdBiTlEHnpd1fHOL5VA")  # токен через переменную окружения
+TOKEN = os.getenv("TOKEN")  # токен через переменную окружения
 ADMIN_ID = 1141002512# твой Telegram ID
 
 bot = Bot(token=TOKEN)
